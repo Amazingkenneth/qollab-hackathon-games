@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Prototype asset manifest",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["path", "origin", "creator", "license_status", "source_url", "acquired_utc", "modifications", "sha256", "usage"],
+    "properties": {
+      "path": {"type": "string"},
+      "origin": {"enum": ["team_supplied", "original_procedural", "generated", "external"]},
+      "creator": {"type": "string"},
+      "license_status": {"type": "string"},
+      "source_url": {"type": ["string", "null"]},
+      "acquired_utc": {"type": "string"},
+      "modifications": {"type": "array", "items": {"type": "string"}},
+      "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+      "usage": {"type": "array", "items": {"type": "string"}},
+      "generation_prompt": {"type": "string"},
+      "notes": {"type": "string"}
+    },
+    "additionalProperties": false
+  }
+}

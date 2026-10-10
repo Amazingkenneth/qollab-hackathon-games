@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800" role="img">
+<title>The Last Bridge — annotated composition map</title>
+<desc>Engineering layout reference only. The build guide defines the story, artwork, model, and controls.</desc>
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7" fill="#537F94"/></marker></defs>
+<rect width="1280" height="800" fill="#FAFCFD"/>
+<rect x="0" y="0" width="1280" height="56" rx="12" fill="#243743" stroke="#243743"/>
+<text x="24" y="35" font-family="Arial, sans-serif" font-size="24" fill="#FFFFFF" font-weight="700" text-anchor="start">The Last Bridge / composition reference</text>
+<text x="1248" y="34" font-family="Arial, sans-serif" font-size="14" fill="#D5E5EC" font-weight="400" text-anchor="end">1280 × 800 · not a game screenshot</text>
+<rect x="24" y="80" width="976" height="374" rx="12" fill="#F1F4F6" stroke="#BCC8CF"/>
+<text x="38" y="105" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">LANDSCAPE + MODEL SITES</text>
+<rect x="1024" y="80" width="232" height="524" rx="12" fill="#F1F4F6" stroke="#BCC8CF"/>
+<text x="1038" y="105" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">OBJECTIVE / METRICS</text>
+<rect x="24" y="478" width="976" height="126" rx="12" fill="#F1F4F6" stroke="#BCC8CF"/>
+<text x="38" y="503" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">POPULATION HISTORY — same time axis for all sites</text>
+<rect x="24" y="622" width="1232" height="88" rx="12" fill="#F1F4F6" stroke="#BCC8CF"/>
+<text x="38" y="647" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">PLAY / PAUSE · TIME SCRUB · PARAMETERS · APPROVE</text>
+<rect x="24" y="724" width="1232" height="68" rx="12" fill="#E7EEF1" stroke="#BCC8CF"/>
+<polyline points="200,300 470,260" fill="none" stroke="#537F94" stroke-width="3" stroke-dasharray="0" marker-end="url(#arrow)"/>
+<polyline points="530,260 800,300" fill="none" stroke="#537F94" stroke-width="3" stroke-dasharray="0" marker-end="url(#arrow)"/>
+<circle cx="170" cy="300" r="49" fill="#FFF7D9" stroke="#587888" stroke-width="2"/>
+<text x="170" y="305" font-family="Arial, sans-serif" font-size="14" fill="#243743" font-weight="700" text-anchor="middle">L / 00</text>
+<circle cx="500" cy="260" r="49" fill="#FFF7D9" stroke="#587888" stroke-width="2"/>
+<text x="500" y="265" font-family="Arial, sans-serif" font-size="14" fill="#243743" font-weight="700" text-anchor="middle">M / 01</text>
+<circle cx="830" cy="300" r="49" fill="#FFF7D9" stroke="#587888" stroke-width="2"/>
+<text x="830" y="305" font-family="Arial, sans-serif" font-size="14" fill="#243743" font-weight="700" text-anchor="middle">R / 10</text>
+<rect x="283" y="337" width="125" height="48" rx="12" fill="#FFF7D9" stroke="#BCC8CF"/>
+<text x="297" y="362" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">JL socket</text>
+<rect x="607" y="337" width="125" height="48" rx="12" fill="#FFF7D9" stroke="#BCC8CF"/>
+<text x="621" y="362" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">JR socket</text>
+<rect x="439" y="135" width="122" height="57" rx="12" fill="#E8DAB9" stroke="#BCC8CF"/>
+<text x="453" y="160" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">Delta</text>
+<text x="1044" y="153" font-family="Arial, sans-serif" font-size="18" fill="#243743" font-weight="700" text-anchor="start">P(R) now</text>
+<text x="1044" y="207" font-family="Arial, sans-serif" font-size="15" fill="#243743" font-weight="700" text-anchor="start">Max P(M) over [0,T]</text>
+<text x="1044" y="262" font-family="Arial, sans-serif" font-size="17" fill="#243743" font-weight="400" text-anchor="start">Time / gamma</text>
+<text x="1044" y="318" font-family="Arial, sans-serif" font-size="15" fill="#243743" font-weight="400" text-anchor="start">Population sum = 1</text>
+<text x="1044" y="377" font-family="Arial, sans-serif" font-size="15" fill="#243743" font-weight="400" text-anchor="start">Coherence is separate</text>
+<text x="1044" y="437" font-family="Arial, sans-serif" font-size="14" fill="#243743" font-weight="400" text-anchor="start">All units dimensionless</text>
+<polyline points="74,568 950,568" fill="none" stroke="#8499A2" stroke-width="3" stroke-dasharray="0" marker-end="url(#arrow)"/>
+<polyline points="74,568 74,514" fill="none" stroke="#8499A2" stroke-width="3" stroke-dasharray="0" marker-end="url(#arrow)"/>
+<path d="M78,536 C230,530 400,555 520,550 S810,515 950,526" fill="none" stroke="#A3758A" stroke-width="3"/>
+<path d="M78,562 C220,542 340,565 470,549 S760,566 950,550" fill="none" stroke="#B59051" stroke-width="3"/>
+<path d="M78,529 C240,536 440,566 570,564 S780,560 950,563" fill="none" stroke="#537F94" stroke-width="3"/>
+<text x="114" y="521" font-family="Arial, sans-serif" font-size="13" fill="#243743" font-weight="400" text-anchor="start">Schematic traces only — use computed data in the game</text>
+<text x="964" y="529" font-family="Arial, sans-serif" font-size="12" fill="#243743" font-weight="400" text-anchor="start">R</text>
+<text x="964" y="550" font-family="Arial, sans-serif" font-size="12" fill="#243743" font-weight="400" text-anchor="start">M</text>
+<text x="964" y="568" font-family="Arial, sans-serif" font-size="12" fill="#243743" font-weight="400" text-anchor="start">L</text>
+<text x="48" y="682" font-family="Arial, sans-serif" font-size="17" fill="#243743" font-weight="400" text-anchor="start">JL / JR / delta / insulation</text>
+<text x="475" y="682" font-family="Arial, sans-serif" font-size="17" fill="#243743" font-weight="400" text-anchor="start">Time scrubber</text>
+<text x="870" y="682" font-family="Arial, sans-serif" font-size="17" fill="#243743" font-weight="400" text-anchor="start">Approve relay</text>
+<text x="40" y="751" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="700" text-anchor="start">The middle-population cap applies to the whole history. Exact ideal evolution and dephased evolution differ.</text>
+<text x="40" y="777" font-family="Arial, sans-serif" font-size="14" fill="#243743" font-weight="400" text-anchor="start">All scene transitions, output values, and success checks must come from the specified model.</text>
+</svg>

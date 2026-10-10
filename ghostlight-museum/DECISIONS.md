@@ -1,0 +1,11 @@
+# Implementation decisions
+
+- **Project boundary:** used a new isolated `ghostlight-museum/` folder, as requested by the guide. The supplied workspace contained design documents and fixtures, but no game scaffold to extend.
+- **Toolchain:** TypeScript and Vite with pinned versions, run with Bun 1.3.5 available in the environment. The browser build has no runtime package dependency and makes no network requests for game assets.
+- **Physics:** model the two live paths and absorbed environment flag in one normalized four-amplitude state. The absorber swaps the probe amplitude into the loss flag, and the inverse rotation acts only on live paths. This keeps absorption terminal and avoids hiding the conservation cost.
+- **Game structure:** a reducer owns calibration, hidden trial, evidence classification, policy choice, reset, and ending. `toPlayerView()` excludes hidden occupancy and the random seed until an authorized reveal. Each classification report progresses independently of the random live outcome.
+- **Evidence labels:** exact predictions, sampled story observations, illustrative teaching reports, and optional ensemble counts are displayed as distinct evidence types. The ensemble uses 128 fresh preparations.
+- **Art and sound:** authored local SVG, CSS, and Web Audio replace external media. This keeps the prototype offline-capable and avoids unverified licenses. Sound starts only after user action and is optional.
+- **Qollab:** packaged separately as a body-fragment JS/Qiskit project with dotted Python import and injected backend bridge, following the current platform docs. The exact local preview is distinct from remote finite counts. Qollab upload/runtime was unavailable here, so no execution result is claimed.
+- **QA scope:** model fixtures, reducer flow, typecheck, build, Python syntax, and Qollab JS bundling were run. Browser capture attempts failed in the available environment; no screenshots are fabricated. Keyboard, touch, responsive rendering, and audio need an interactive browser pass.
+- **Scope cuts:** additional exhibits, voice-over, downloaded music/art, advanced Zeno protocols, and a large Bayesian inspector were omitted to keep the authored three-scene flow complete and its claims limited to the specified ideal model.

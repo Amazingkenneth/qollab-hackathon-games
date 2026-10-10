@@ -1,0 +1,459 @@
+{
+  "schema_version": 1,
+  "purpose": "Planning contracts, not executable predicates. The standalone guides are authoritative for full narrative and mathematics.",
+  "basis_order": "index=q0+2*q1+...; displayed two-qubit kets are |q1 q0>",
+  "common": {
+    "success_uses": "exact model and justified evidence, never a lucky sampled outcome",
+    "shot_semantics": "fresh preparation unless an explicit sequential measurement scene says otherwise",
+    "required_actions": [
+      "start",
+      "preview",
+      "wrong attempt",
+      "hint",
+      "undo or fresh retry",
+      "ending",
+      "replay"
+    ]
+  },
+  "concepts": [
+    {
+      "id": "last-light",
+      "guide": "guides/01-Last-Light.md",
+      "preferred_port": 5173,
+      "scenes": [
+        {
+          "id": "phase",
+          "initial": {
+            "phase": 3.141592653589793,
+            "record": false
+          },
+          "controls": [
+            "phase in {0,pi/2,pi,3pi/2}"
+          ],
+          "success": "P(path=0)>=0.95",
+          "example_solution": {
+            "phase": 0
+          }
+        },
+        {
+          "id": "record",
+          "initial": {
+            "phase": 0,
+            "record": true,
+            "uncompute": false
+          },
+          "controls": [
+            "phase",
+            "return coil",
+            "hide label"
+          ],
+          "success": "required record retained in circuit and P(path=0)>=0.95",
+          "example_solution": {
+            "phase": 0,
+            "uncompute": true
+          },
+          "nonphysical_control": "hide label changes rendering only"
+        },
+        {
+          "id": "final",
+          "initial": {
+            "fixed_phase": 1.5707963267948966,
+            "correction": 0,
+            "record": true,
+            "uncompute": false
+          },
+          "controls": [
+            "phase correction",
+            "return coil"
+          ],
+          "success": "P(path=0)>=0.95",
+          "example_solution": {
+            "correction": 4.71238898038469,
+            "uncompute": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "palimpsest",
+      "guide": "guides/02-Palimpsest.md",
+      "preferred_port": 5174,
+      "scenes": [
+        {
+          "id": "order",
+          "initial": {
+            "cards": [
+              "Z",
+              "H",
+              "H"
+            ]
+          },
+          "controls": [
+            "swap cards"
+          ],
+          "success": "valid inventory and P(route=1)>=0.99",
+          "example_solution": {
+            "cards": [
+              "H",
+              "Z",
+              "H"
+            ]
+          }
+        },
+        {
+          "id": "phase",
+          "initial": {
+            "fixed_phase": 1.5707963267948966,
+            "correction": 0
+          },
+          "controls": [
+            "phase correction"
+          ],
+          "success": "P(route=0)>=0.99",
+          "example_solution": {
+            "correction": 4.71238898038469
+          }
+        },
+        {
+          "id": "record",
+          "initial": {
+            "record": true,
+            "uncompute": false,
+            "phase": 0
+          },
+          "controls": [
+            "return stamp",
+            "fold caption",
+            "phase"
+          ],
+          "success": "first story target P(route=0)>=0.99 with required postcard operation",
+          "example_solution": {
+            "uncompute": true,
+            "phase": 0
+          },
+          "nonphysical_control": "fold caption changes rendering only"
+        }
+      ]
+    },
+    {
+      "id": "ghostlight-museum",
+      "guide": "guides/03-Ghostlight-Museum.md",
+      "preferred_port": 5175,
+      "scenes": [
+        {
+          "id": "calibrate",
+          "initial": {
+            "known_occupied": false,
+            "theta": 0.7853981633974483,
+            "phase_delta": 1.5707963267948966
+          },
+          "controls": [
+            "phase delta"
+          ],
+          "success": "known-empty dark probability<=1e-9",
+          "example_solution": {
+            "phase_delta": 0
+          }
+        },
+        {
+          "id": "classify",
+          "initial": {
+            "theta": 0.7853981633974483,
+            "phase_delta": 0,
+            "hidden_prior_occupied": 0.5
+          },
+          "controls": [
+            "fresh replica",
+            "one probe",
+            "conclusion"
+          ],
+          "success": "correctly classify live observation and three labelled reference reports",
+          "outcome_map": {
+            "bright": "inconclusive",
+            "dark": "presence without absorption",
+            "absorbed": "presence by absorption; conservation cost"
+          }
+        },
+        {
+          "id": "gentler",
+          "initial": {
+            "known_occupied": true,
+            "theta": 0.7853981633974483
+          },
+          "controls": [
+            "theta in {pi/4,pi/6,pi/12}"
+          ],
+          "success": "dark>=0.18 and absorbed<=0.30",
+          "example_solution": {
+            "theta": 0.5235987755982988,
+            "dark": 0.1875,
+            "absorbed": 0.25
+          }
+        }
+      ]
+    },
+    {
+      "id": "the-memory-thief",
+      "guide": "guides/04-The-Memory-Thief.md",
+      "preferred_port": 5176,
+      "scenes": [
+        {
+          "id": "wrong-question",
+          "initial": {
+            "theta": 0.39269908169872414,
+            "basis": "Z",
+            "priors": [
+              0.5,
+              0.5
+            ]
+          },
+          "controls": [
+            "fresh reference",
+            "live measurement",
+            "conclusion"
+          ],
+          "success": "recognize identical likelihoods and unchanged equal owner probabilities"
+        },
+        {
+          "id": "best-guess",
+          "initial": {
+            "theta": 0.39269908169872414,
+            "basis": "Z"
+          },
+          "controls": [
+            "basis Z/X/Y",
+            "fresh specimen",
+            "tentative conclusion"
+          ],
+          "success": "choose accuracy>=0.85 and acknowledge nonzero error",
+          "example_solution": {
+            "basis": "X",
+            "success": 0.8535533905932737
+          }
+        },
+        {
+          "id": "abstain",
+          "initial": {
+            "theta": 0.39269908169872414,
+            "policy": "no false conclusive labels in ideal model"
+          },
+          "controls": [
+            "instrument",
+            "fresh specimen",
+            "justified conclusion"
+          ],
+          "success": "choose USD and correctly handle A/B/inconclusive",
+          "outcome_map": {
+            "A": "return to Aster",
+            "B": "return to Bryn",
+            "?": "hold without assigning owner"
+          },
+          "conclusive_rate": 0.2928932188134524
+        }
+      ]
+    },
+    {
+      "id": "coherence-kitchen",
+      "guide": "guides/05-Coherence-Kitchen.md",
+      "preferred_port": 5177,
+      "scenes": [
+        {
+          "id": "flipped",
+          "initial": {
+            "cards": [
+              "H",
+              "H",
+              "Z"
+            ],
+            "target": "|1>"
+          },
+          "controls": [
+            "swap ingredient"
+          ],
+          "success": "target fidelity>=0.999 and valid inventory",
+          "example_solution": {
+            "cards": [
+              "H",
+              "Z",
+              "H"
+            ]
+          }
+        },
+        {
+          "id": "phase",
+          "initial": {
+            "cards": [
+              "S",
+              "S",
+              "H"
+            ],
+            "target": "|->"
+          },
+          "controls": [
+            "swap ingredient",
+            "Z/X taster"
+          ],
+          "success": "target fidelity>=0.999",
+          "example_solution": {
+            "cards": [
+              "H",
+              "S",
+              "S"
+            ]
+          }
+        },
+        {
+          "id": "pair",
+          "initial": {
+            "cards": [
+              "H0",
+              "CX0to1",
+              "Z0"
+            ],
+            "target": "Phi+"
+          },
+          "controls": [
+            "move Z0 before H, between H/CX, or after CX"
+          ],
+          "success": "target fidelity>=0.999",
+          "example_solution": {
+            "cards": [
+              "Z0",
+              "H0",
+              "CX0to1"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "quantum-forgery",
+      "guide": "guides/06-Quantum-Forgery.md",
+      "preferred_port": 5178,
+      "scenes": [
+        {
+          "id": "easy-tests",
+          "initial": {
+            "strategy": "CNOT",
+            "references": [
+              "0",
+              "1"
+            ]
+          },
+          "controls": [
+            "reference",
+            "limited report"
+          ],
+          "success": "report success only for tested orthogonal references"
+        },
+        {
+          "id": "complementary-audit",
+          "initial": {
+            "strategy": "CNOT",
+            "references": [
+              "+",
+              "-"
+            ]
+          },
+          "controls": [
+            "reference",
+            "joint audit",
+            "counterexample report"
+          ],
+          "success": "identify an input with exact both-copy pass<1 and explain joint outcome",
+          "example_solution": {
+            "reference": "-",
+            "both_pass": 0
+          }
+        },
+        {
+          "id": "read-first",
+          "initial": {
+            "strategy": "measure Z and reprepare"
+          },
+          "controls": [
+            "strategy",
+            "reference",
+            "report"
+          ],
+          "success": "reject universal cloning and distinguish per-input rows from equal means",
+          "both_pass_uniform_mean": 0.625
+        },
+        {
+          "id": "proof-ending",
+          "controls": [
+            "overlap-preserved seal"
+          ],
+          "success": "recognize overlap mismatch for hypothetical perfect copier",
+          "overlap_before": 0.7071067811865475,
+          "overlap_after": 0.5
+        }
+      ]
+    },
+    {
+      "id": "the-last-bridge",
+      "guide": "guides/07-The-Last-Bridge.md",
+      "preferred_port": 5179,
+      "scenes": [
+        {
+          "id": "balance",
+          "initial": {
+            "JL": 1,
+            "JR": 0.5,
+            "delta": 0,
+            "time": 0
+          },
+          "controls": [
+            "JR in {0.5,1}",
+            "time 0..4"
+          ],
+          "success": "P(R)>=0.95",
+          "example_solution": {
+            "JR": 1,
+            "time": 2.221441469079183
+          }
+        },
+        {
+          "id": "middle-cap",
+          "initial": {
+            "JL": 1,
+            "JR": 1,
+            "delta": 0,
+            "time": 0
+          },
+          "controls": [
+            "delta in {0,4}",
+            "time 0..8"
+          ],
+          "success": "P(R)>=0.90 and historical max P(M)<=0.18",
+          "example_solution": {
+            "delta": 4,
+            "time": 6.4125,
+            "PR": 0.9833068714922418,
+            "max_PM": 0.16666666666666666
+          }
+        },
+        {
+          "id": "dephasing",
+          "initial": {
+            "JL": 1,
+            "JR": 1,
+            "delta": 0,
+            "time": 2.221441469079183,
+            "gamma": 0.8,
+            "previous_middle_cap": "removed explicitly after reinforcement"
+          },
+          "controls": [
+            "gamma in {0.8,0.2,0}",
+            "cosmetic brightness"
+          ],
+          "success": "P(R)>=0.98 at fixed time",
+          "example_solution": {
+            "gamma": 0
+          },
+          "nonphysical_control": "brightness changes rendering only"
+        }
+      ]
+    }
+  ]
+}

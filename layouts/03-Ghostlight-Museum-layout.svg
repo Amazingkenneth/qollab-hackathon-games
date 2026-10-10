@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800" role="img">
+<title>Ghostlight Museum — annotated composition map</title>
+<desc>Engineering layout reference only. The build guide defines the story, artwork, model, and controls.</desc>
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7" fill="#537F94"/></marker></defs>
+<rect width="1280" height="800" fill="#FAFCFD"/>
+<rect x="0" y="0" width="1280" height="56" rx="12" fill="#243743" stroke="#243743"/>
+<text x="24" y="35" font-family="Arial, sans-serif" font-size="24" fill="#FFFFFF" font-weight="700" text-anchor="start">Ghostlight Museum / composition reference</text>
+<text x="1248" y="34" font-family="Arial, sans-serif" font-size="14" fill="#D5E5EC" font-weight="400" text-anchor="end">1280 × 800 · not a game screenshot</text>
+<rect x="24" y="80" width="842" height="472" rx="12" fill="#F1F4F6" stroke="#BCC8CF"/>
+<text x="38" y="105" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">STORY STAGE + MODEL OVERLAY</text>
+<rect x="890" y="80" width="366" height="472" rx="12" fill="#F1F4F6" stroke="#BCC8CF"/>
+<text x="904" y="105" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">EVIDENCE / OBJECTIVE</text>
+<rect x="24" y="576" width="1232" height="128" rx="12" fill="#F1F4F6" stroke="#BCC8CF"/>
+<text x="38" y="601" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">CONTROLS / EDITABLE SLOTS</text>
+<rect x="24" y="724" width="1232" height="68" rx="12" fill="#E7EEF1" stroke="#BCC8CF"/>
+<polyline points="112,318 270,318 390,205 630,205 725,318" fill="none" stroke="#537F94" stroke-width="3" stroke-dasharray="0" marker-end="url(#arrow)"/>
+<polyline points="270,318 390,425 630,425 725,318" fill="none" stroke="#537F94" stroke-width="3" stroke-dasharray="0" marker-end="url(#arrow)"/>
+<polyline points="725,318 814,244" fill="none" stroke="#537F94" stroke-width="3" stroke-dasharray="0" marker-end="url(#arrow)"/>
+<polyline points="725,318 814,400" fill="none" stroke="#537F94" stroke-width="3" stroke-dasharray="0" marker-end="url(#arrow)"/>
+<circle cx="112" cy="318" r="31" fill="#FFF7D9" stroke="#587888" stroke-width="2"/>
+<text x="112" y="323" font-family="Arial, sans-serif" font-size="14" fill="#243743" font-weight="700" text-anchor="middle">IN</text>
+<circle cx="270" cy="318" r="31" fill="#FFF7D9" stroke="#587888" stroke-width="2"/>
+<text x="270" y="323" font-family="Arial, sans-serif" font-size="14" fill="#243743" font-weight="700" text-anchor="middle">R(θ)</text>
+<circle cx="725" cy="318" r="36" fill="#FFF7D9" stroke="#587888" stroke-width="2"/>
+<text x="725" y="323" font-family="Arial, sans-serif" font-size="14" fill="#243743" font-weight="700" text-anchor="middle">R(−θ)</text>
+<rect x="432" y="380" width="136" height="92" rx="12" fill="#DDE9E8" stroke="#BCC8CF"/>
+<text x="446" y="405" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">Sealed case</text>
+<circle cx="814" cy="244" r="23" fill="#FFF7D9" stroke="#587888" stroke-width="2"/>
+<text x="814" y="249" font-family="Arial, sans-serif" font-size="14" fill="#243743" font-weight="700" text-anchor="middle">B</text>
+<circle cx="814" cy="400" r="23" fill="#FFF7D9" stroke="#587888" stroke-width="2"/>
+<text x="814" y="405" font-family="Arial, sans-serif" font-size="14" fill="#243743" font-weight="700" text-anchor="middle">D</text>
+<polyline points="500,474 500,497" fill="none" stroke="#B07177" stroke-width="3" stroke-dasharray="0" marker-end="url(#arrow)"/>
+<text x="500" y="528" font-family="Arial, sans-serif" font-size="17" fill="#243743" font-weight="400" text-anchor="middle">Absorbed A</text>
+<text x="914" y="153" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="700" text-anchor="start">Known reference predictions</text>
+<text x="914" y="192" font-family="Arial, sans-serif" font-size="17" fill="#243743" font-weight="400" text-anchor="start">Empty: B = 1</text>
+<text x="914" y="225" font-family="Arial, sans-serif" font-size="17" fill="#243743" font-weight="400" text-anchor="start">Occupied: B / D / A</text>
+<rect x="912" y="256" width="310" height="136" rx="12" fill="#FFFFFF" stroke="#BCC8CF"/>
+<text x="926" y="281" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">THIS TRIAL</text>
+<text x="926" y="314" font-family="Arial, sans-serif" font-size="17" fill="#243743" font-weight="400" text-anchor="start">Observed outcome only</text>
+<text x="926" y="346" font-family="Arial, sans-serif" font-size="14" fill="#243743" font-weight="400" text-anchor="start">Hidden occupancy stays hidden</text>
+<text x="914" y="440" font-family="Arial, sans-serif" font-size="18" fill="#243743" font-weight="700" text-anchor="start">Calibration status</text>
+<text x="914" y="477" font-family="Arial, sans-serif" font-size="15" fill="#243743" font-weight="400" text-anchor="start">Signal and absorption budgets</text>
+<rect x="48" y="618" width="230" height="60" rx="12" fill="#FFF7D9" stroke="#BCC8CF"/>
+<text x="62" y="643" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">Alignment / θ</text>
+<rect x="302" y="618" width="230" height="60" rx="12" fill="#FFF7D9" stroke="#BCC8CF"/>
+<text x="316" y="643" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">Fresh replica</text>
+<rect x="556" y="618" width="230" height="60" rx="12" fill="#FFF7D9" stroke="#BCC8CF"/>
+<text x="570" y="643" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">One probe</text>
+<rect x="810" y="618" width="230" height="60" rx="12" fill="#FFF7D9" stroke="#BCC8CF"/>
+<text x="824" y="643" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">Classify evidence</text>
+<rect x="1064" y="618" width="170" height="60" rx="12" fill="#FFF7D9" stroke="#BCC8CF"/>
+<text x="1078" y="643" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">Confirm</text>
+<text x="40" y="751" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="700" text-anchor="start">Dark is conclusive only after calibration. Bright is inconclusive. Absorption has a conservation cost.</text>
+<text x="40" y="777" font-family="Arial, sans-serif" font-size="14" fill="#243743" font-weight="400" text-anchor="start">All scene transitions, output values, and success checks must come from the specified model.</text>
+</svg>

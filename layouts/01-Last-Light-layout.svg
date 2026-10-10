@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800" role="img">
+<title>Last Light — annotated composition map</title>
+<desc>Engineering layout reference only. The build guide defines the story, artwork, model, and controls.</desc>
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7" fill="#537F94"/></marker></defs>
+<rect width="1280" height="800" fill="#FAFCFD"/>
+<rect x="0" y="0" width="1280" height="56" rx="12" fill="#243743" stroke="#243743"/>
+<text x="24" y="35" font-family="Arial, sans-serif" font-size="24" fill="#FFFFFF" font-weight="700" text-anchor="start">Last Light / composition reference</text>
+<text x="1248" y="34" font-family="Arial, sans-serif" font-size="14" fill="#D5E5EC" font-weight="400" text-anchor="end">1280 × 800 · not a game screenshot</text>
+<rect x="24" y="80" width="856" height="472" rx="12" fill="#F1F4F6" stroke="#BCC8CF"/>
+<text x="38" y="105" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">STORY STAGE + MODEL OVERLAY</text>
+<rect x="904" y="80" width="352" height="472" rx="12" fill="#F1F4F6" stroke="#BCC8CF"/>
+<text x="918" y="105" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">EVIDENCE / OBJECTIVE</text>
+<rect x="24" y="576" width="1232" height="128" rx="12" fill="#F1F4F6" stroke="#BCC8CF"/>
+<text x="38" y="601" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">CONTROLS / EDITABLE SLOTS</text>
+<rect x="24" y="724" width="1232" height="68" rx="12" fill="#E7EEF1" stroke="#BCC8CF"/>
+<polyline points="112,330 284,330 442,224 670,224 824,330" fill="none" stroke="#537F94" stroke-width="3" stroke-dasharray="0" marker-end="url(#arrow)"/>
+<polyline points="284,330 442,432 670,432 824,330" fill="none" stroke="#537F94" stroke-width="3" stroke-dasharray="0" marker-end="url(#arrow)"/>
+<polyline points="824,330 868,250" fill="none" stroke="#537F94" stroke-width="3" stroke-dasharray="0" marker-end="url(#arrow)"/>
+<polyline points="824,330 868,430" fill="none" stroke="#537F94" stroke-width="3" stroke-dasharray="0" marker-end="url(#arrow)"/>
+<circle cx="112" cy="330" r="31" fill="#FFF7D9" stroke="#587888" stroke-width="2"/>
+<text x="112" y="335" font-family="Arial, sans-serif" font-size="14" fill="#243743" font-weight="700" text-anchor="middle">IN</text>
+<circle cx="284" cy="330" r="31" fill="#FFF7D9" stroke="#587888" stroke-width="2"/>
+<text x="284" y="335" font-family="Arial, sans-serif" font-size="14" fill="#243743" font-weight="700" text-anchor="middle">H</text>
+<circle cx="544" cy="432" r="31" fill="#FFF7D9" stroke="#587888" stroke-width="2"/>
+<text x="544" y="437" font-family="Arial, sans-serif" font-size="14" fill="#243743" font-weight="700" text-anchor="middle">P(φ)</text>
+<circle cx="824" cy="330" r="31" fill="#FFF7D9" stroke="#587888" stroke-width="2"/>
+<text x="824" y="335" font-family="Arial, sans-serif" font-size="14" fill="#243743" font-weight="700" text-anchor="middle">H</text>
+<text x="430" y="195" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">route 0</text>
+<text x="430" y="390" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">route 1 · phase arrow + angle</text>
+<rect x="346" y="486" width="146" height="53" rx="12" fill="#E1EAF8" stroke="#BCC8CF"/>
+<text x="360" y="511" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">Record CX</text>
+<rect x="608" y="486" width="162" height="53" rx="12" fill="#E1EAF8" stroke="#BCC8CF"/>
+<text x="622" y="511" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">Return CX</text>
+<polyline points="420,486 420,444" fill="none" stroke="#537F94" stroke-width="3" stroke-dasharray="8" marker-end="url(#arrow)"/>
+<polyline points="688,486 688,444" fill="none" stroke="#537F94" stroke-width="3" stroke-dasharray="8" marker-end="url(#arrow)"/>
+<rect x="926" y="126" width="302" height="140" rx="12" fill="#D8E3EB" stroke="#BCC8CF"/>
+<text x="940" y="151" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">Harbor vignette</text>
+<text x="928" y="315" font-family="Arial, sans-serif" font-size="18" fill="#243743" font-weight="700" text-anchor="start">Harbor / path 0</text>
+<text x="928" y="347" font-family="Arial, sans-serif" font-size="14" fill="#243743" font-weight="400" text-anchor="start">Exact probability + sample count</text>
+<text x="928" y="411" font-family="Arial, sans-serif" font-size="18" fill="#243743" font-weight="700" text-anchor="start">Reef / path 1</text>
+<text x="928" y="443" font-family="Arial, sans-serif" font-size="14" fill="#243743" font-weight="400" text-anchor="start">Two outputs always sum to 1</text>
+<rect x="48" y="618" width="214" height="60" rx="12" fill="#FFF7D9" stroke="#BCC8CF"/>
+<text x="62" y="643" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">Phase dial</text>
+<rect x="290" y="618" width="214" height="60" rx="12" fill="#FFF7D9" stroke="#BCC8CF"/>
+<text x="304" y="643" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">Return coil</text>
+<rect x="532" y="618" width="214" height="60" rx="12" fill="#FFF7D9" stroke="#BCC8CF"/>
+<text x="546" y="643" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">Hide label</text>
+<rect x="774" y="618" width="214" height="60" rx="12" fill="#FFF7D9" stroke="#BCC8CF"/>
+<text x="788" y="643" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">Preview / 64 shots</text>
+<rect x="1020" y="618" width="214" height="60" rx="12" fill="#FFF7D9" stroke="#BCC8CF"/>
+<text x="1034" y="643" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">Confirm</text>
+<text x="40" y="751" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="700" text-anchor="start">Reveal: matching final records restore interference; hiding a label changes no probability.</text>
+<text x="40" y="777" font-family="Arial, sans-serif" font-size="14" fill="#243743" font-weight="400" text-anchor="start">All scene transitions, output values, and success checks must come from the specified model.</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800" role="img">
+<title>Coherence Kitchen — annotated composition map</title>
+<desc>Engineering layout reference only. The build guide defines the story, artwork, model, and controls.</desc>
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7" fill="#537F94"/></marker></defs>
+<rect width="1280" height="800" fill="#FAFCFD"/>
+<rect x="0" y="0" width="1280" height="56" rx="12" fill="#243743" stroke="#243743"/>
+<text x="24" y="35" font-family="Arial, sans-serif" font-size="24" fill="#FFFFFF" font-weight="700" text-anchor="start">Coherence Kitchen / composition reference</text>
+<text x="1248" y="34" font-family="Arial, sans-serif" font-size="14" fill="#D5E5EC" font-weight="400" text-anchor="end">1280 × 800 · not a game screenshot</text>
+<rect x="24" y="80" width="976" height="472" rx="12" fill="#F1F4F6" stroke="#BCC8CF"/>
+<text x="38" y="105" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">STORY STAGE + MODEL OVERLAY</text>
+<rect x="1024" y="80" width="232" height="472" rx="12" fill="#F1F4F6" stroke="#BCC8CF"/>
+<text x="1038" y="105" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">EVIDENCE / OBJECTIVE</text>
+<rect x="24" y="576" width="1232" height="128" rx="12" fill="#F1F4F6" stroke="#BCC8CF"/>
+<text x="38" y="601" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">CONTROLS / EDITABLE SLOTS</text>
+<rect x="24" y="724" width="1232" height="68" rx="12" fill="#E7EEF1" stroke="#BCC8CF"/>
+<rect x="48" y="132" width="258" height="170" rx="12" fill="#F3DECE" stroke="#BCC8CF"/>
+<text x="62" y="157" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">Customer + target</text>
+<text x="64" y="226" font-family="Arial, sans-serif" font-size="15" fill="#243743" font-weight="400" text-anchor="start">Persistent recipe request</text>
+<circle cx="530" cy="282" r="70" fill="#FFF5D9" stroke="#587888" stroke-width="2"/>
+<text x="530" y="287" font-family="Arial, sans-serif" font-size="14" fill="#243743" font-weight="700" text-anchor="middle">q0</text>
+<circle cx="830" cy="282" r="70" fill="#FFF5D9" stroke="#587888" stroke-width="2"/>
+<text x="830" y="287" font-family="Arial, sans-serif" font-size="14" fill="#243743" font-weight="700" text-anchor="middle">q1</text>
+<polyline points="603,282 752,282" fill="none" stroke="#537F94" stroke-width="3" stroke-dasharray="0" marker-end="url(#arrow)"/>
+<text x="680" y="251" font-family="Arial, sans-serif" font-size="17" fill="#243743" font-weight="400" text-anchor="middle">Pairing spoon / CX</text>
+<text x="680" y="403" font-family="Arial, sans-serif" font-size="18" fill="#243743" font-weight="400" text-anchor="middle">Phase arrows remain code-rendered</text>
+<text x="1044" y="154" font-family="Arial, sans-serif" font-size="18" fill="#243743" font-weight="700" text-anchor="start">TASTER</text>
+<text x="1044" y="198" font-family="Arial, sans-serif" font-size="18" fill="#243743" font-weight="400" text-anchor="start">Z / X basis</text>
+<text x="1044" y="253" font-family="Arial, sans-serif" font-size="14" fill="#243743" font-weight="400" text-anchor="start">Exact target fidelity</text>
+<text x="1044" y="307" font-family="Arial, sans-serif" font-size="14" fill="#243743" font-weight="400" text-anchor="start">Joint outcome grid</text>
+<text x="1044" y="361" font-family="Arial, sans-serif" font-size="14" fill="#243743" font-weight="400" text-anchor="start">Fresh-portion samples</text>
+<text x="1044" y="430" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="700" text-anchor="start">Serve when valid</text>
+<rect x="348" y="618" width="174" height="60" rx="12" fill="#FFF7D9" stroke="#BCC8CF"/>
+<text x="362" y="643" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">Ingredient 1</text>
+<rect x="568" y="618" width="174" height="60" rx="12" fill="#FFF7D9" stroke="#BCC8CF"/>
+<text x="582" y="643" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">Ingredient 2</text>
+<rect x="788" y="618" width="174" height="60" rx="12" fill="#FFF7D9" stroke="#BCC8CF"/>
+<text x="802" y="643" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">Ingredient 3</text>
+<text x="48" y="644" font-family="Arial, sans-serif" font-size="17" fill="#243743" font-weight="400" text-anchor="start">Select / swap / undo</text>
+<text x="1044" y="646" font-family="Arial, sans-serif" font-size="17" fill="#243743" font-weight="400" text-anchor="start">Preview · Serve</text>
+<text x="40" y="751" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="700" text-anchor="start">A Z histogram cannot certify phase. For two plates, sample joint outcomes rather than independent coins.</text>
+<text x="40" y="777" font-family="Arial, sans-serif" font-size="14" fill="#243743" font-weight="400" text-anchor="start">All scene transitions, output values, and success checks must come from the specified model.</text>
+</svg>

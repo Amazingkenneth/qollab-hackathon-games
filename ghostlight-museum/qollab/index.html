@@ -1,0 +1,43 @@
+<main class="qollab-museum">
+  <header class="q-header">
+    <div class="q-mark">G<span>✦</span></div>
+    <div><p class="q-overline">GHOSTLIGHT MUSEUM · NIGHT INVENTORY</p><h1>Conservation lab</h1></div>
+    <div class="q-status"><i></i><span>LOCAL EXACT PREVIEW</span></div>
+  </header>
+
+  <section class="q-intro">
+    <div class="q-copy">
+      <p class="q-overline">THE QUESTION · WHAT DOES THIS CLICK PROVE?</p>
+      <h2>A dark port can reveal presence<br>without absorption in that branch.</h2>
+      <p>This compact export runs the same four-state absorber model. Exact probabilities stay separate from the finite shot record returned by the selected Qollab backend.</p>
+    </div>
+    <div class="q-orchid" aria-hidden="true"><span>✿</span><i></i></div>
+  </section>
+
+  <section id="story-flow" class="q-story" aria-live="polite"></section>
+
+  <section class="q-layout">
+    <article class="q-card q-controls">
+      <div class="q-card-head"><span class="q-number">01</span><div><p class="q-overline">REFERENCE CIRCUIT</p><h2>Choose the apparatus</h2></div></div>
+      <div class="q-form-grid">
+        <label>Coupling angle · θ<select id="theta"><option value="quarter">π/4 · balanced</option><option value="sixth">π/6 · gentle</option><option value="twelfth">π/12 · very gentle</option></select></label>
+        <label>Phase alignment · δ<select id="phase"><option value="0">0° · aligned</option><option value="1">90°</option><option value="2">180°</option><option value="3">270°</option></select></label>
+        <label>Reference case<select id="occupancy"><option value="occupied">Occupied replica</option><option value="empty">Known empty case</option></select></label>
+        <label>Shots<input id="shots" type="number" min="100" max="10000" step="100" value="1024"></label>
+      </div>
+      <div class="q-mini-legend"><span><i class="q-dot bright-dot"></i>Bright · B</span><span><i class="q-dot dark-dot"></i>Dark · D</span><span><i class="q-dot absorbed-dot"></i>Absorbed · A</span></div>
+      <button id="backend-run" class="q-button"><span>Run one Qollab backend job</span><b>↗</b></button>
+      <p class="q-microcopy">One job is submitted per page run. Local previews and controls remain available if the backend rejects it.</p>
+    </article>
+
+    <article class="q-card q-results">
+      <div class="q-card-head"><span class="q-number">02</span><div><p class="q-overline">EXACT MODEL · LOCAL</p><h2>Reference predictions</h2></div><span id="calibration-badge" class="q-calibration">DARK PORT UNCALIBRATED</span></div>
+      <div class="q-exact-heading"><span id="exact-case">Occupied reference</span><span id="exact-config">θ = π/4 · δ = 0°</span></div>
+      <div id="exact-bars" class="q-outcomes"></div>
+      <div class="q-circuit"><p class="q-overline">CHRONOLOGICAL OPERATIONS · LEFT TO RIGHT</p><div id="circuit-steps" class="q-steps"></div></div>
+      <div class="q-result-box" aria-live="polite"><div class="q-result-top"><span class="q-overline">BACKEND EVIDENCE</span><span id="backend-state" class="q-state-pill">NOT RUN</span></div><div id="backend-result"><p>Exact preview is ready. No backend output is being implied.</p></div></div>
+    </article>
+  </section>
+
+  <footer class="q-footer"><span>MODEL BASIS · INDEX = q₀ + 2q₁ · DISPLAY KETS |q₁q₀⟩</span><span>Bright is inconclusive · Absorbed is presence with a cost</span></footer>
+</main>

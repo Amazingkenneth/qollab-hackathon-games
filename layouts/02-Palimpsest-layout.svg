@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800" role="img">
+<title>Palimpsest — annotated composition map</title>
+<desc>Engineering layout reference only. The build guide defines the story, artwork, model, and controls.</desc>
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7" fill="#537F94"/></marker></defs>
+<rect width="1280" height="800" fill="#FAFCFD"/>
+<rect x="0" y="0" width="1280" height="56" rx="12" fill="#243743" stroke="#243743"/>
+<text x="24" y="35" font-family="Arial, sans-serif" font-size="24" fill="#FFFFFF" font-weight="700" text-anchor="start">Palimpsest / composition reference</text>
+<text x="1248" y="34" font-family="Arial, sans-serif" font-size="14" fill="#D5E5EC" font-weight="400" text-anchor="end">1280 × 800 · not a game screenshot</text>
+<rect x="24" y="80" width="912" height="472" rx="12" fill="#F1F4F6" stroke="#BCC8CF"/>
+<text x="38" y="105" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">STORY STAGE + MODEL OVERLAY</text>
+<rect x="960" y="80" width="296" height="472" rx="12" fill="#F1F4F6" stroke="#BCC8CF"/>
+<text x="974" y="105" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">EVIDENCE / OBJECTIVE</text>
+<rect x="24" y="576" width="1232" height="128" rx="12" fill="#F1F4F6" stroke="#BCC8CF"/>
+<text x="38" y="601" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">CONTROLS / EDITABLE SLOTS</text>
+<rect x="24" y="724" width="1232" height="68" rx="12" fill="#E7EEF1" stroke="#BCC8CF"/>
+<rect x="58" y="245" width="145" height="140" rx="12" fill="#F5ECD7" stroke="#BCC8CF"/>
+<text x="72" y="270" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">Input</text>
+<rect x="294" y="128" width="186" height="158" rx="12" fill="#F5ECD7" stroke="#BCC8CF"/>
+<text x="308" y="153" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">Upper route</text>
+<rect x="294" y="346" width="186" height="158" rx="12" fill="#F5ECD7" stroke="#BCC8CF"/>
+<text x="308" y="371" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">Lower route</text>
+<rect x="568" y="245" width="162" height="140" rx="12" fill="#F5ECD7" stroke="#BCC8CF"/>
+<text x="582" y="270" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">Join</text>
+<rect x="756" y="155" width="156" height="130" rx="12" fill="#F5ECD7" stroke="#BCC8CF"/>
+<text x="770" y="180" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">Dawn / 0</text>
+<rect x="756" y="352" width="156" height="130" rx="12" fill="#F5ECD7" stroke="#BCC8CF"/>
+<text x="770" y="377" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">Night / 1</text>
+<polyline points="203,295 288,210" fill="none" stroke="#537F94" stroke-width="3" stroke-dasharray="0" marker-end="url(#arrow)"/>
+<polyline points="203,335 288,425" fill="none" stroke="#537F94" stroke-width="3" stroke-dasharray="0" marker-end="url(#arrow)"/>
+<polyline points="480,210 562,290" fill="none" stroke="#537F94" stroke-width="3" stroke-dasharray="0" marker-end="url(#arrow)"/>
+<polyline points="480,425 562,340" fill="none" stroke="#537F94" stroke-width="3" stroke-dasharray="0" marker-end="url(#arrow)"/>
+<polyline points="730,290 748,230" fill="none" stroke="#537F94" stroke-width="3" stroke-dasharray="0" marker-end="url(#arrow)"/>
+<polyline points="730,340 748,420" fill="none" stroke="#537F94" stroke-width="3" stroke-dasharray="0" marker-end="url(#arrow)"/>
+<text x="320" y="320" font-family="Arial, sans-serif" font-size="15" fill="#243743" font-weight="400" text-anchor="start">Record compatibility bracket</text>
+<text x="980" y="153" font-family="Arial, sans-serif" font-size="18" fill="#243743" font-weight="700" text-anchor="start">Objective</text>
+<text x="980" y="198" font-family="Arial, sans-serif" font-size="18" fill="#243743" font-weight="700" text-anchor="start">Exact outputs</text>
+<text x="980" y="258" font-family="Arial, sans-serif" font-size="18" fill="#243743" font-weight="700" text-anchor="start">Phase arrows</text>
+<text x="980" y="320" font-family="Arial, sans-serif" font-size="18" fill="#243743" font-weight="700" text-anchor="start">Notebook + hints</text>
+<text x="980" y="382" font-family="Arial, sans-serif" font-size="17" fill="#243743" font-weight="400" text-anchor="start">Inspector / samples</text>
+<rect x="132" y="618" width="158" height="60" rx="12" fill="#FFF7D9" stroke="#BCC8CF"/>
+<text x="146" y="643" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">H</text>
+<rect x="332" y="618" width="158" height="60" rx="12" fill="#FFF7D9" stroke="#BCC8CF"/>
+<text x="346" y="643" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">CX record</text>
+<rect x="532" y="618" width="158" height="60" rx="12" fill="#FFF7D9" stroke="#BCC8CF"/>
+<text x="546" y="643" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">Phase</text>
+<rect x="732" y="618" width="158" height="60" rx="12" fill="#FFF7D9" stroke="#BCC8CF"/>
+<text x="746" y="643" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">CX return</text>
+<rect x="932" y="618" width="158" height="60" rx="12" fill="#FFF7D9" stroke="#BCC8CF"/>
+<text x="946" y="643" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">H</text>
+<text x="40" y="751" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="700" text-anchor="start">The bottom reading rail executes operations; overlapping painted panels alone do not create interference.</text>
+<text x="40" y="777" font-family="Arial, sans-serif" font-size="14" fill="#243743" font-weight="400" text-anchor="start">All scene transitions, output values, and success checks must come from the specified model.</text>
+</svg>

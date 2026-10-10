@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800" role="img">
+<title>Quantum Forgery — annotated composition map</title>
+<desc>Engineering layout reference only. The build guide defines the story, artwork, model, and controls.</desc>
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7" fill="#537F94"/></marker></defs>
+<rect width="1280" height="800" fill="#FAFCFD"/>
+<rect x="0" y="0" width="1280" height="56" rx="12" fill="#243743" stroke="#243743"/>
+<text x="24" y="35" font-family="Arial, sans-serif" font-size="24" fill="#FFFFFF" font-weight="700" text-anchor="start">Quantum Forgery / composition reference</text>
+<text x="1248" y="34" font-family="Arial, sans-serif" font-size="14" fill="#D5E5EC" font-weight="400" text-anchor="end">1280 × 800 · not a game screenshot</text>
+<rect x="24" y="80" width="832" height="472" rx="12" fill="#F1F4F6" stroke="#BCC8CF"/>
+<text x="38" y="105" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">STORY STAGE + MODEL OVERLAY</text>
+<rect x="880" y="80" width="376" height="472" rx="12" fill="#F1F4F6" stroke="#BCC8CF"/>
+<text x="894" y="105" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">EVIDENCE / OBJECTIVE</text>
+<rect x="24" y="576" width="1232" height="128" rx="12" fill="#F1F4F6" stroke="#BCC8CF"/>
+<text x="38" y="601" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">CONTROLS / EDITABLE SLOTS</text>
+<rect x="24" y="724" width="1232" height="68" rx="12" fill="#E7EEF1" stroke="#BCC8CF"/>
+<circle cx="150" cy="270" r="52" fill="#E7DFED" stroke="#587888" stroke-width="2"/>
+<text x="150" y="275" font-family="Arial, sans-serif" font-size="14" fill="#243743" font-weight="700" text-anchor="middle">q0 input</text>
+<circle cx="150" cy="434" r="52" fill="#F7ECD4" stroke="#587888" stroke-width="2"/>
+<text x="150" y="439" font-family="Arial, sans-serif" font-size="14" fill="#243743" font-weight="700" text-anchor="middle">q1 blank</text>
+<rect x="346" y="260" width="168" height="160" rx="12" fill="#E8DAB9" stroke="#BCC8CF"/>
+<text x="360" y="285" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">COPIER</text>
+<text x="430" y="342" font-family="Arial, sans-serif" font-size="27" fill="#243743" font-weight="700" text-anchor="middle">CX</text>
+<polyline points="205,270 338,304" fill="none" stroke="#537F94" stroke-width="3" stroke-dasharray="0" marker-end="url(#arrow)"/>
+<polyline points="205,434 338,386" fill="none" stroke="#537F94" stroke-width="3" stroke-dasharray="0" marker-end="url(#arrow)"/>
+<polyline points="514,308 638,250" fill="none" stroke="#537F94" stroke-width="3" stroke-dasharray="0" marker-end="url(#arrow)"/>
+<polyline points="514,375 638,440" fill="none" stroke="#537F94" stroke-width="3" stroke-dasharray="0" marker-end="url(#arrow)"/>
+<circle cx="694" cy="250" r="54" fill="#E7DFED" stroke="#587888" stroke-width="2"/>
+<text x="694" y="255" font-family="Arial, sans-serif" font-size="14" fill="#243743" font-weight="700" text-anchor="middle">Output A</text>
+<circle cx="694" cy="440" r="54" fill="#E7DFED" stroke="#587888" stroke-width="2"/>
+<text x="694" y="445" font-family="Arial, sans-serif" font-size="14" fill="#243743" font-weight="700" text-anchor="middle">Output B</text>
+<text x="904" y="154" font-family="Arial, sans-serif" font-size="18" fill="#243743" font-weight="700" text-anchor="start">ISSUER AUDIT</text>
+<text x="904" y="198" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">Basis + expected joint result</text>
+<rect x="910" y="230" width="132" height="75" rx="12" fill="#FFFFFF" stroke="#BCC8CF"/>
+<text x="924" y="255" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">++</text>
+<rect x="1060" y="230" width="132" height="75" rx="12" fill="#FFFFFF" stroke="#BCC8CF"/>
+<text x="1074" y="255" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">+−</text>
+<rect x="910" y="325" width="132" height="75" rx="12" fill="#FFFFFF" stroke="#BCC8CF"/>
+<text x="924" y="350" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">−+</text>
+<rect x="1060" y="325" width="132" height="75" rx="12" fill="#FFFFFF" stroke="#BCC8CF"/>
+<text x="1074" y="350" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">−−</text>
+<text x="904" y="447" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="700" text-anchor="start">Both accepted: joint probability</text>
+<text x="904" y="481" font-family="Arial, sans-serif" font-size="14" fill="#243743" font-weight="400" text-anchor="start">Marginal pass rates shown separately</text>
+<rect x="48" y="618" width="262" height="60" rx="12" fill="#FFF7D9" stroke="#BCC8CF"/>
+<text x="62" y="643" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">Known / sealed mode</text>
+<rect x="332" y="618" width="262" height="60" rx="12" fill="#FFF7D9" stroke="#BCC8CF"/>
+<text x="346" y="643" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">Input reference</text>
+<rect x="614" y="618" width="262" height="60" rx="12" fill="#FFF7D9" stroke="#BCC8CF"/>
+<text x="628" y="643" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">Copier strategy</text>
+<rect x="896" y="618" width="262" height="60" rx="12" fill="#FFF7D9" stroke="#BCC8CF"/>
+<text x="910" y="643" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">Run audit / report</text>
+<text x="40" y="751" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="700" text-anchor="start">The − input under CNOT never gives the required −− joint result, even though each marginal can pass.</text>
+<text x="40" y="777" font-family="Arial, sans-serif" font-size="14" fill="#243743" font-weight="400" text-anchor="start">All scene transitions, output values, and success checks must come from the specified model.</text>
+</svg>

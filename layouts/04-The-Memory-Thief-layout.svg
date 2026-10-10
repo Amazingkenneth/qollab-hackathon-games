@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800" role="img">
+<title>The Memory Thief — annotated composition map</title>
+<desc>Engineering layout reference only. The build guide defines the story, artwork, model, and controls.</desc>
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7" fill="#537F94"/></marker></defs>
+<rect width="1280" height="800" fill="#FAFCFD"/>
+<rect x="0" y="0" width="1280" height="56" rx="12" fill="#243743" stroke="#243743"/>
+<text x="24" y="35" font-family="Arial, sans-serif" font-size="24" fill="#FFFFFF" font-weight="700" text-anchor="start">The Memory Thief / composition reference</text>
+<text x="1248" y="34" font-family="Arial, sans-serif" font-size="14" fill="#D5E5EC" font-weight="400" text-anchor="end">1280 × 800 · not a game screenshot</text>
+<rect x="24" y="80" width="840" height="472" rx="12" fill="#F1F4F6" stroke="#BCC8CF"/>
+<text x="38" y="105" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">STORY STAGE + MODEL OVERLAY</text>
+<rect x="888" y="80" width="368" height="472" rx="12" fill="#F1F4F6" stroke="#BCC8CF"/>
+<text x="902" y="105" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">EVIDENCE / OBJECTIVE</text>
+<rect x="24" y="576" width="1232" height="128" rx="12" fill="#F1F4F6" stroke="#BCC8CF"/>
+<text x="38" y="601" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">CONTROLS / EDITABLE SLOTS</text>
+<rect x="24" y="724" width="1232" height="68" rx="12" fill="#E7EEF1" stroke="#BCC8CF"/>
+<rect x="110" y="132" width="220" height="150" rx="12" fill="#E8E4ED" stroke="#BCC8CF"/>
+<text x="124" y="157" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">Aster: known reference</text>
+<rect x="530" y="132" width="220" height="150" rx="12" fill="#E8E4ED" stroke="#BCC8CF"/>
+<text x="544" y="157" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">Bryn: known reference</text>
+<text x="130" y="236" font-family="Arial, sans-serif" font-size="15" fill="#243743" font-weight="400" text-anchor="start">Allowed state preview</text>
+<text x="550" y="236" font-family="Arial, sans-serif" font-size="15" fill="#243743" font-weight="400" text-anchor="start">Allowed state preview</text>
+<circle cx="430" cy="382" r="95" fill="#E3ECF0" stroke="#63808E" stroke-width="3"/>
+<circle cx="430" cy="382" r="49" fill="#CCD8DE" stroke="#587888" stroke-width="2"/>
+<text x="430" y="387" font-family="Arial, sans-serif" font-size="14" fill="#243743" font-weight="700" text-anchor="middle">SEALED</text>
+<polyline points="348,351 255,326" fill="none" stroke="#537F94" stroke-width="3" stroke-dasharray="0" marker-end="url(#arrow)"/>
+<polyline points="512,351 605,326" fill="none" stroke="#537F94" stroke-width="3" stroke-dasharray="0" marker-end="url(#arrow)"/>
+<polyline points="430,478 430,490" fill="none" stroke="#537F94" stroke-width="3" stroke-dasharray="0" marker-end="url(#arrow)"/>
+<circle cx="255" cy="326" r="22" fill="#FFF7D9" stroke="#587888" stroke-width="2"/>
+<text x="255" y="331" font-family="Arial, sans-serif" font-size="14" fill="#243743" font-weight="700" text-anchor="middle">A</text>
+<circle cx="605" cy="326" r="22" fill="#FFF7D9" stroke="#587888" stroke-width="2"/>
+<text x="605" y="331" font-family="Arial, sans-serif" font-size="14" fill="#243743" font-weight="700" text-anchor="middle">B</text>
+<circle cx="430" cy="516" r="22" fill="#FFF7D9" stroke="#587888" stroke-width="2"/>
+<text x="430" y="521" font-family="Arial, sans-serif" font-size="14" fill="#243743" font-weight="700" text-anchor="middle">?</text>
+<text x="912" y="154" font-family="Arial, sans-serif" font-size="17" fill="#243743" font-weight="700" text-anchor="start">Likelihoods by hypothesis</text>
+<text x="912" y="200" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">Outcome</text>
+<text x="1044" y="200" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">If A</text>
+<text x="1150" y="200" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">If B</text>
+<text x="912" y="241" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">A</text>
+<text x="1044" y="241" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">29.3%</text>
+<text x="1150" y="241" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">0</text>
+<text x="912" y="281" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">B</text>
+<text x="1044" y="281" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">0</text>
+<text x="1150" y="281" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">29.3%</text>
+<text x="912" y="321" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">?</text>
+<text x="1044" y="321" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">70.7%</text>
+<text x="1150" y="321" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="400" text-anchor="start">70.7%</text>
+<text x="912" y="410" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="700" text-anchor="start">Claim supported by evidence</text>
+<text x="912" y="445" font-family="Arial, sans-serif" font-size="14" fill="#243743" font-weight="400" text-anchor="start">Tentative / conclusive / unknown</text>
+<rect x="48" y="618" width="310" height="60" rx="12" fill="#FFF7D9" stroke="#BCC8CF"/>
+<text x="62" y="643" font-family="Arial, sans-serif" font-size="15" fill="#243743" font-weight="400" text-anchor="start">Instrument Z / X / Y / USD</text>
+<rect x="390" y="618" width="248" height="60" rx="12" fill="#FFF7D9" stroke="#BCC8CF"/>
+<text x="404" y="643" font-family="Arial, sans-serif" font-size="15" fill="#243743" font-weight="400" text-anchor="start">Fresh specimen</text>
+<rect x="664" y="618" width="220" height="60" rx="12" fill="#FFF7D9" stroke="#BCC8CF"/>
+<text x="678" y="643" font-family="Arial, sans-serif" font-size="15" fill="#243743" font-weight="400" text-anchor="start">Measure</text>
+<rect x="908" y="618" width="326" height="60" rx="12" fill="#FFF7D9" stroke="#BCC8CF"/>
+<text x="922" y="643" font-family="Arial, sans-serif" font-size="15" fill="#243743" font-weight="400" text-anchor="start">Submit conclusion</text>
+<text x="40" y="751" font-family="Arial, sans-serif" font-size="16" fill="#243743" font-weight="700" text-anchor="start">The third outlet is a valid answer: conclusive labels have no wrong-state likelihood in the ideal model.</text>
+<text x="40" y="777" font-family="Arial, sans-serif" font-size="14" fill="#243743" font-weight="400" text-anchor="start">All scene transitions, output values, and success checks must come from the specified model.</text>
+</svg>

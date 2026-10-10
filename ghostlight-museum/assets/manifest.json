@@ -1,0 +1,89 @@
+[
+  {
+    "path": "src/ui/render.ts",
+    "origin": "original_procedural",
+    "creator": "OpenAI Codex; original project SVG implementation",
+    "license_status": "Original source code created for this prototype; no external asset license dependency",
+    "source_url": null,
+    "acquired_utc": "2026-10-10T21:32:21Z",
+    "modifications": [
+      "Inline SVG scene art and interactive apparatus authored in project code."
+    ],
+    "sha256": "0f1a02212d6ea2deaf5d11c5fede26b675aabd829f4173a8186288075a6bf8ce",
+    "usage": [
+      "Gallery and foyer illustration",
+      "Paper orchid",
+      "Conservator",
+      "Vitrine",
+      "Optical apparatus",
+      "Outcome symbols"
+    ]
+  },
+  {
+    "path": "src/style.css",
+    "origin": "original_procedural",
+    "creator": "OpenAI Codex; original project styling",
+    "license_status": "Original source code created for this prototype; no external asset license dependency",
+    "source_url": null,
+    "acquired_utc": "2026-10-10T21:28:04Z",
+    "modifications": [
+      "Original responsive layout, palette, and motion styling."
+    ],
+    "sha256": "8b32d4e02b7d6d4bf43ddb8c7eeb557d707f911c7e53dc9d4016c3fe6c5ed834",
+    "usage": [
+      "Game interface",
+      "Scene composition",
+      "Responsive layout",
+      "Reduced-motion presentation"
+    ]
+  },
+  {
+    "path": "src/audio/audio.ts",
+    "origin": "original_procedural",
+    "creator": "OpenAI Codex; original Web Audio implementation",
+    "license_status": "Original source code created for this prototype; no external recording or asset license dependency",
+    "source_url": null,
+    "acquired_utc": "2026-10-10T21:38:00Z",
+    "modifications": [
+      "Procedural ambient score and outcome cues synthesized locally with Web Audio."
+    ],
+    "sha256": "810baf8edb4a4de594da6f2ebba5e34986bad6586996af63280b08eb3d546547",
+    "usage": [
+      "Optional ambient score",
+      "Bright, Dark, and Absorbed outcome cues"
+    ]
+  },
+  {
+    "path": "qollab/main.js",
+    "origin": "original_procedural",
+    "creator": "OpenAI Codex; original Qollab project implementation",
+    "license_status": "Original source code created for this prototype; no external asset license dependency",
+    "source_url": null,
+    "acquired_utc": "2026-10-10T21:37:06Z",
+    "modifications": [
+      "Self-contained story, vector scene art, and documented JS/Python backend adapter."
+    ],
+    "sha256": "acdd39342200a3c5e6e5e28be64e7f5f8cd5b7239f36dba7efb3dff46694403b",
+    "usage": [
+      "Qollab story and controls",
+      "Local prediction display",
+      "Optional backend evidence panel"
+    ]
+  },
+  {
+    "path": "qollab/main.css",
+    "origin": "original_procedural",
+    "creator": "OpenAI Codex; original Qollab project styling",
+    "license_status": "Original source code created for this prototype; no external asset license dependency",
+    "source_url": null,
+    "acquired_utc": "2026-10-10T21:23:23Z",
+    "modifications": [
+      "Original standalone styling for the Qollab body-fragment export."
+    ],
+    "sha256": "c8b57d3837a871550d0a56bcf415d9150cebd3bddf7c9620ac0138fe59c77dca",
+    "usage": [
+      "Qollab gallery and story presentation",
+      "Responsive controls and evidence panel"
+    ]
+  }
+]
