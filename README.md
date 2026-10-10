@@ -6,7 +6,7 @@ A collection of seven narrative game designs about quantum mechanics, with one p
 
 | Game | Experience | Status |
 | --- | --- | --- |
-| [Last Light](guides/01-Last-Light.md) | Repair a lighthouse by reversing a coherent route | Guide and layout |
+| [Last Light](guides/01-Last-Light.md) | Repair a lighthouse by reversing a coherent route | **Playable prototype** |
 | [Palimpsest](guides/02-Palimpsest.md) | Reorder illustrated panels to reveal a phase-sensitive ending | Guide and layout |
 | [Ghostlight Museum](guides/03-Ghostlight-Museum.md) | Calibrate an optical exhibit and judge what a detector click proves | **Playable prototype** |
 | [The Memory Thief](guides/04-The-Memory-Thief.md) | Decide when evidence justifies a conclusive claim | Guide and layout |
@@ -37,11 +37,23 @@ bun run preview
 
 The tested environment used Bun 1.3.5 and pinned Vite 8.3.0. Vite's [current setup guide](https://vite.dev/guide/) documents its Node.js version requirements. The full implementation and verification limits are in [`ghostlight-museum/README.md`](ghostlight-museum/README.md) and [`ghostlight-museum/TEST_REPORT.md`](ghostlight-museum/TEST_REPORT.md).
 
+## Play Last Light
+
+From the repository root:
+
+```sh
+cd last-light
+python3 -m http.server 5173
+```
+
+Open `http://localhost:5173`. This dependency-free vertical slice contains three lighthouse repairs, exact probability previews, honest sampled test pulses, wrong-attempt feedback, hints, undo/reset, replay, and the homecoming ending. See [`last-light/README.md`](last-light/README.md) for the route and implementation notes.
+
 ## Repository map
 
 - `guides/`: seven independent game specifications, including scene flow, model, feedback, art, audio, and acceptance details.
 - `layouts/`: annotated scene composition maps; these are design references, not screenshots.
 - `ghostlight-museum/`: playable TypeScript/Vite game, tests, Qiskit reference, and separate Qollab JS/Qiskit export.
+- `last-light/`: dependency-free playable browser game with exact local model and responsive SVG/CSS presentation.
 - `reference/`: independent numerical fixtures, NumPy verification script, and scene contracts.
 - `shared/`: implementation supervision, asset/audio, Qollab, and evaluation guidance.
 - `schemas/`: JSON schemas for asset manifests and progress events.

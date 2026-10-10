@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#142532" />
+    <title>Last Light</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main id="app" class="app">
+      <section id="title-screen" class="title-screen" aria-labelledby="title">
+        <div class="title-art">
+          <div class="moon"></div><div class="fog fog-a"></div><div class="fog fog-b"></div>
+          <div class="lighthouse"><span></span><i></i></div>
+          <div class="water"></div><div class="ferry"><b></b></div>
+        </div>
+        <div class="title-copy">
+          <p class="eyebrow">A small story of interference</p>
+          <h1 id="title">Last <em>Light</em></h1>
+          <p>The ferry knows this coast by one light.<br />Tonight, ours is pointing the wrong way.</p>
+          <button id="start" class="primary large">Begin the watch <span>→</span></button>
+          <p class="micro">A quiet optical puzzle · 6–8 minutes · no failure states</p>
+        </div>
+      </section>
+
+      <section id="game" class="game hidden">
+        <header class="topbar">
+          <div class="brand"><span class="brand-mark">✦</span><strong>LAST LIGHT</strong><small>KEEPER'S WORKSHOP</small></div>
+          <div class="progress"><span id="scene-label">REPAIR 1 / 3</span><div class="progress-track"><i id="progress"></i></div></div>
+          <div class="top-actions"><button id="mute" class="icon-btn" aria-label="Toggle sound">◖</button><button id="motion" class="icon-btn" aria-label="Toggle reduced motion">✧</button><button id="notebook" class="outline">Notebook</button></div>
+        </header>
+
+        <div class="content">
+          <section class="workbench" aria-label="Optical workbench">
+            <div class="bench-heading"><div><p class="eyebrow">THE LENS ROOM · <span id="scene-kicker">FIRST SIGNAL</span></p><h2 id="scene-title">A light that adds to darkness</h2></div><span class="status-dot" id="status-dot">● LIVE MODEL</span></div>
+            <div class="apparatus">
+              <div class="apparatus-grid"></div>
+              <div class="pulse pulse-one"></div>
+              <svg viewBox="0 0 880 480" role="img" aria-label="Two-path optical apparatus">
+                <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3 z" fill="#c99b58"/></marker></defs>
+                <path class="beam" d="M60 250 H178 M222 250 L350 128 H580 L698 250 M222 250 L350 372 H580 L698 250" marker-end="url(#arrow)"/>
+                <path class="guide-line" d="M350 128 H580 M350 372 H580"/>
+                <circle class="node source-node" cx="60" cy="250" r="20"/><circle class="node splitter" cx="200" cy="250" r="22"/><circle class="node recombiner" cx="720" cy="250" r="22"/>
+                <circle class="lens" cx="465" cy="372" r="27"/><path class="lens-line" d="M465 345 V399"/>
+                <text x="44" y="300">SOURCE</text><text x="337" y="104">ROUTE 0 · SAME WAY</text><text x="337" y="407">ROUTE 1 · PHASE</text>
+                <text x="747" y="185" class="output-label">HARBOR 0</text><text x="747" y="330" class="output-label">REEF 1</text>
+                <circle class="output harbor-out" cx="720" cy="165" r="10"/><circle class="output reef-out" cx="720" cy="335" r="10"/>
+                <g id="record-device"><rect x="330" y="425" width="96" height="38" rx="8"/><text x="344" y="449">RECORD</text><circle cx="414" cy="444" r="5"/></g>
+                <g id="coil-device" class="hidden-device"><rect x="540" y="425" width="100" height="38" rx="8"/><text x="552" y="449">RETURN COIL</text><circle cx="625" cy="444" r="5"/></g>
+              </svg>
+              <div class="dial-readout"><span>PHASE LENS</span><strong id="phase-readout">π</strong></div>
+              <div class="record-caption" id="record-caption">no route record</div>
+            </div>
+          </section>
+
+          <aside class="harbor-panel">
+            <div class="harbor-scene"><div class="harbor-moon"></div><div class="harbor-hill"></div><div class="harbor-light" id="harbor-light"></div><div class="harbor-window"></div><div class="harbor-boat"><span></span></div><div class="harbor-water"></div></div>
+            <p class="eyebrow">PREDICTED OUTPUT · EXACT</p>
+            <div class="meter"><div><span>HARBOR <b>0</b></span><strong id="harbor-pct">0%</strong></div><div class="meter-track"><i id="harbor-meter"></i></div></div>
+            <div class="meter"><div><span>REEF <b>1</b></span><strong id="reef-pct">100%</strong></div><div class="meter-track reef"><i id="reef-meter"></i></div></div>
+            <p class="model-note" id="model-note">Two route arrows arrive opposite. The harbor goes dark.</p>
+            <div id="shot-results" class="shot-results hidden"></div>
+          </aside>
+        </div>
+
+        <section class="controls">
+          <div class="control-group"><span class="control-label">PHASE LENS</span><div class="dial-buttons" id="dial-buttons"><button data-phase="0">0</button><button data-phase="1">π/2</button><button data-phase="2">π</button><button data-phase="3">3π/2</button></div></div>
+          <div class="control-group device-controls" id="device-controls"><span class="control-label">APPARATUS</span><button id="coil" class="tool">＋ Return coil <small>reversible</small></button><button id="cloth" class="tool">▰ Hide record <small>cosmetic</small></button></div>
+          <div class="control-actions"><button id="undo" class="outline">Undo</button><button id="reset" class="outline">Reset scene</button><button id="preview" class="secondary">Preview</button><button id="shots" class="secondary">Send 64 test pulses</button><button id="confirm" class="primary">Confirm repair <span>→</span></button></div>
+        </section>
+
+        <footer class="dialogue"><div class="mara-avatar">M</div><p id="dialogue">Mara: Both routes carry light. Why is the harbor dark?</p><button id="hint" class="hint">Need a hint?</button></footer>
+      </section>
+
+      <section id="ending" class="ending hidden">
+        <div class="ending-art"><div class="beam-sweep"></div><div class="end-moon"></div><div class="end-town"></div><div class="end-lighthouse"><span></span></div><div class="end-boat"><i></i></div><div class="end-water"></div></div>
+        <div class="ending-copy"><p class="eyebrow">HOMEBOUND · 02:17</p><h2>There.<br /><em>A way home.</em></h2><p id="ending-dialogue">The routes mattered together, until a record told them apart.</p><div class="ending-actions"><button id="replay" class="primary">Replay repairs <span>↻</span></button><button id="explore" class="outline">Explore apparatus</button><button id="circuit" class="outline">View the circuit</button></div><p class="physics-note"><strong>THE SMALL TRUTH</strong><br />This story uses a small ideal quantum circuit to model interference and a coherent path record. The harbor is fictional; no attention or observation is required to make the light behave.</p></div>
+      </section>
+    </main>
+    <div id="toast" class="toast" role="status"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
